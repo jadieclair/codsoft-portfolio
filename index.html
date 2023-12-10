@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?Open+Sans:wght@300;400&family=Oswald:wght@700&family=Lato&family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header with navigation links -->
+    <header>
+      <!-- Navigation links with corresponding sections -->
+      <nav class="navigation">
+        <a href="#about">About Me<span></span></a>
+        <a href="#completed-projects">Completed Projects<span></span></a>
+        <a href="#resume">Resume<span></span></a>
+        <a href="#contact">Contact Me<span></span></a>
+      </nav>
+    </header>
+
+    <!-- Parallax section with animated text and bird illustrations -->
+    <main>
+      <section class="parallax" id="home">
+        <!-- Container for the animated text -->
+        <div class="flip-container">
+          <div class="flip-text" id="animatedText">
+            <!-- Introduction text -->
+            <p class="introduction">
+              "Jade Harris invites you to discover the artistry<br />
+              of web development through a rich portfolio <br />
+              that promises a captivating journey that <br />
+              takes you to diverse digital worlds...!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Bird illustrations with different classes and sizes -->
+        <!-- Bird 1 -->
+        <div class="bird-container bird-container--one">
+          <div class="bird bird--one"></div>
+        </div>
+
+        <!-- Bird 2 -->
+        <div class="bird-container bird-container--two">
+          <div class="bird bird--two"></div>
+        </div>
+
+        <!-- Bird 3 -->
+        <div class="bird-container bird-container--three">
+          <div class="bird bird--three"></div>
+        </div>
+
+        <!-- Bird 4 (larger) -->
+        <div class="bird-container bird-container--four">
+          <div class="bird bird--four"></div>
+        </div>
+
+        <!-- Bird 5 (larger) -->
+        <div class="bird-container bird-container--five">
+          <div class="bird bird--five"></div>
+        </div>
+
+        <!-- Bird 6 -->
+        <div class="bird-container bird-container--six">
+          <div class="bird bird--six"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- About me page -->
+
+    <section id="about">
+      <!-- Parallax Background with Grass Image -->
+      <div class="parallax">
+        <img
+          src="../assests/grass.png"
+          alt="Grass Texture Background"
+          id="grass"
+        />
+      </div>
+
+      <!-- Main Content Container -->
+      <div class="sec">
+        <!-- Title and Profile Image Wrapper -->
+        <div class="title-wrapper">
+          <!-- Profile Image -->
+          <img
+            src="../assests/profile.jpg"
+            class="profile"
+            alt="Jade Harris Profile"
+          />
+          <!-- About Information -->
+          <div class="about">
+            <!-- Main Title -->
+            <h1 class="title background-text">
+              Sawubona, Hello from South Africa!
+            </h1>
+            <!-- Name -->
+            <h3 class="name-wrapper">
+              My name is <span class="name">Jade Harris</span>
+            </h3>
+            <!-- "Hire Me" Button with Link to Contact Section -->
+            <a href="#contact" class="hire-btn">Hire Me</a>
+          </div>
+        </div>
+
+        <!-- Three Columns with About Information -->
+        <div class="about-columns">
+          <div class="column">
+            <!-- Column 1: Who am I? -->
+            <h4 class="about-title">Who am I?</h4>
+            <!-- Detailed description -->
+            <p class="desc">
+              &nbsp;&nbsp;&nbsp; Full Stack Web Developer passionate about
+              crafting engaging digital experiences. With expertise in both
+              front-end and back-end technologies, I blend creativity with
+              functionality to build websites that not only meet technical
+              requirements but also captivate users. <br />
+              &nbsp;&nbsp;&nbsp; I specialize in creating user-friendly
+              interfaces and seamless functionality to ensure a positive online
+              experience. My goal is to exceed client expectations by delivering
+              visually appealing, responsive, and intuitive . <br />
+              &nbsp;&nbsp;&nbsp; Let's collaborate to bring your ideas to life!
+              Explore my portfolio to see how I can turn your vision into a
+              remarkable digital reality.
+            </p>
+          </div>
+
+          <!-- Column 2: What are my Skills? -->
+          <div class="column">
+            <h4 class="about-title second-title">What are my Skills?</h4>
+            <div class="desc">
+              <!-- List of technical skills in two columns -->
+              <div class="list-container">
+                <ul class="skills-list">
+                  <li>HTML5</li>
+                  <li>Bootstrap</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>OOP</li>
+                  <li>React.js</li>
+                  <li>Fluid Layouts</li>
+                  <li>Git/Github</li>
+                  <li>SEO</li>
+                  <li>Social-Media Management</li>
+                </ul>
+              </div>
+
+              <div class="list-container">
+                <ul class="skills-list">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>API</li>
+                  <li>MySQL</li>
+                  <li>Authentication</li>
+                  <li>Security</li>
+                  <li>Redux</li>
+                  <li>MongoDB</li>
+
+                  <li>Digital Marketing</li>
+                  <li>Advertising Specialist</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Why hire me? -->
+          <div class="column">
+            <h4 class="about-title">Why hire me?</h4>
+            <!-- Detailed description -->
+            <p class="desc">
+              &nbsp;&nbsp;&nbsp; Bringing over a decade of managerial expertise,
+              including oversight of 350 individuals as an operations manager, I
+              excel in leadership, client relations, and team management. A
+              background in counseling and psychology enhances my interpersonal
+              skills, fostering a positive work environment. <br />
+              &nbsp;&nbsp;&nbsp; Known for a conscientious work ethic and strong
+              time management, I am a quick learner dedicated to staying current
+              with industry trends. Honesty, transparent communication, and a
+              commitment to client involvement characterize my approach.
+              Additionally, I offer adaptability, problem-solving,
+              collaboration, critical thinking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <!-- Completed Projects Section -->
+    <section id="completed-projects">
+      <!-- Section Header -->
+      <h3 class="projects-header">My Projects</h3>
+      <!-- Individual Project Container -->
+      <div class="projects">
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Quiz Game</div>
+
+          <img
+            src="projects/quiz-game.png"
+            class="video"
+            alt="Photo of project"
+          />
+          <!-- Project Description -->
+          <p class="video-desc">
+            Developed an engaging JavaScript quiz game with a dynamic UI,
+            featuring implemented game rules, a countdown timer, and a score
+            circle. The responsive design ensures an optimal user experience
+            across devices. The game presents multiple-choice questions,
+            providing instant feedback with red or green rendering based on
+            correct answers. Users can challenge themselves repeatedly with an
+            option to retake the quiz. This project reflects my commitment to
+            creating interactive and visually appealing web applications that
+            combine functionality with an enjoyable user experience.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-quiz-game.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/quiz-project.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Bakery Store</div>
+          <img src="projects/bakery.png" class="video" alt="Photo of project" />
+          <!-- Project Description -->
+          <p class="video-desc">
+            Crafted a stylish and minimalist React-based menu page for a bakery
+            website, employing Bootstrap for a clean design. Focused on
+            simplicity and user experience, the project showcases an attention
+            to detail in implementing a streamlined and visually appealing menu.
+            Leveraged React for seamless navigation and Bootstrap's responsive
+            components for an optimal viewing experience across devices. This
+            project highlights my ability to merge design aesthetics with
+            functional front-end development to create an elegant and
+            user-friendly web interface for a bakery's menu.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-bakery.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/bakery-react.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Apple E-commerce store</div>
+          <img src="projects/ecom.png" class="video" alt="Photo of project" />
+          <!-- Project Description -->
+          <p class="video-desc">
+            Championed a React-based e-commerce site from a Figma blueprint,
+            showcasing proficiency in state management, Redux, and client-side
+            data handling. Key features include a dynamic homepage,
+            Redux-integrated cart functionality, and detailed product pages.
+            Successfully implemented navigation, cart management, and checkout
+            forms for a seamless user experience. This capstone attests to my
+            mastery of front-end technologies and state-of-the-art React
+            practices.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-applestore.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/applestore.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">South African Energy & Water sector</div>
+
+          <img src="projects/ewseta.png" class="video" alt="photo of project" />
+
+          <!-- Project Description -->
+          <p class="video-desc">
+            I built a comprehensive design for the South African Government
+            Energy & Water sector. Through meticulous application of HTML and
+            CSS, I crafted an industry-standard digital platform that redefines
+            the sector's digital landscape. This innovative project focuses on
+            enhancing accessibility, sustainability, and efficiency within the
+            industry. By incorporating Bootstrap for a responsive design,
+            integrating intuitive icons, and employing professional fonts for a
+            more corporate design.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-ewseta.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/ewseta-capstone-2.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Makeovers</div>
+          <img
+            src="projects/makeovers.png"
+            class="video"
+            alt="photo of project"
+          />
+          <!-- Project Description -->
+          <p class="video-desc">
+            This web project, named "Nova," is a stylish and responsive website
+            designed using Bootstrap v5.3.0. It incorporates a range of
+            features, including Lenis Smooth Scroll for a seamless scrolling
+            experience, dynamic tracking of active pages based on scroll
+            position, and a sticky header on scroll. The mobile-friendly design
+            includes a toggle for mobile navigation, dropdown animations, and a
+            scroll-to-top button for user convenience. The template also
+            features a preloader for a polished loading experience, integrates
+            the glightbox library for image galleries, and utilizes Swiper
+            sliders for dynamic content display.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-makeovers.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/makeovers-mobile-app.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Shopping Cart</div>
+          <img
+            src="projects/shoppingcart.png"
+            class="video"
+            alt="Photo of project"
+          />
+          <!-- Project Description -->
+          <p class="video-desc">
+            This was the creation of an innovative shopping cart project that
+            seamlessly blends HTML, CSS, and JavaScript. This dynamic platform
+            introduces an interactive design, enhancing the user experience
+            through features like a Scroll Top Button, Mobile Navigation Toggle,
+            and Preloader Functionality. Noteworthy is the efficient use of
+            JavaScript arrays for dynamic product management, ensuring a
+            scalable and engaging approach to catalog organization. The project
+            not only showcases technical prowess but also emphasizes creativity
+            and user-centric design.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('      https://jade-shoppingcart.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/shopingCart-project.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Calculator</div>
+          <img
+            src="projects/calculator.png"
+            class="video"
+            alt="photo of project"
+          />
+          <!-- Project Description -->
+          <p class="video-desc">
+            Experience my Calculator Web Application—a visually appealing,
+            responsive, and animated tool for basic mathematical calculations.
+            The application, built using HTML, CSS, and JavaScript, features an
+            intuitive user interface with interactive buttons, clear
+            functionality, and a unique animated mathematical symbols. The
+            design is sleek, responsive across devices, and showcases my
+            proficiency in front-end development. Explore the blend of
+            aesthetics and functionality in this engaging calculator project.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-calculator.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/codsoft-calculator.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <!-- Project Title -->
+          <div class="projects-title">Dice Game</div>
+          <img src="projects/dice.png" class="video" alt="photo of project" />
+          <!-- Project Description -->
+          <p class="video-desc">
+            Discover my Dice Game—a dynamic web application crafted using HTML,
+            CSS, and JavaScript. Immerse yourself in the excitement of a fully
+            customizable experience, where users can personalize their names and
+            challenge each other with a set winning score. The game boasts
+            animated dice for a visually engaging experience, while audio sounds
+            enhance the thrill of each roll. This project showcases my skills in
+            front-end development, user interaction, and multimedia integration,
+            offering a playful and interactive application.
+          </p>
+          <div class="button-container">
+            <!-- Button to Open the Project -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://jade-dice.netlify.app', '_blank')"
+            >
+              Open Project
+            </button>
+            <!-- Button to Open the Code Repository -->
+            <button
+              class="open-link-button"
+              onclick="window.open('https://github.com/jadieclair/dice-game.git', '_blank')"
+            >
+              Open Code
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact page -->
+
+    <section id="contact">
+      <!-- Section Header -->
+      <h3 class="projects-header">Contact Me</h3>
+      <!-- Contact Form Container -->
+      <div class="contact-form">
+        <!-- Form Elements -->
+        <form
+          target="_blank"
+          action="https://formsubmit.co/jadeite.onlinestore@gmail.com"
+          method="POST"
+        >
+          <h3 class="form-title">Get In touch</h3>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Full Name"
+            required
+          />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <input type="text" name="phone" placeholder="Contact Number" />
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <!-- Hidden Captcha Field -->
+          <input type="hidden" name="_captcha" value="false" />
+          <!-- Submit Button -->
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- "Back to Top" Button -->
+      <button id="backToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Email: jadeite.onlinestore@gmail.com</p>
+        </div>
+
+        <div class="social-media">
+          <h3>Connect with Me</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jade-harris-b623b9242/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/jadieclair" target="_blank">GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="resume-contact">
+          <div class="resume">
+            <a href="resume.pdf" download="Your_Name_Resume.pdf" id="resume">
+              &rarr; Download Resume<span></span>
+            </a>
+          </div>
+
+          <div class="contact-me">
+            <a
+              href="mailto:jadeite.onlinestore@gmail.com"
+              class="contact-button"
+              style="text-decoration: none; color: #2980b9; font-size: 20px"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2023 Jade Harris. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
